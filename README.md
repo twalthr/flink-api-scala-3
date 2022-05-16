@@ -17,3 +17,5 @@ on YouTube which walks through the Java version of this code.
    the `Add dependencies with "provided" scope to classpath` option in the run configuration under `Modify options`.
 
 3. All Flink programs are runnable from the IDE or SBT. You simply need to execute the `main()` method in the `Main` class.
+
+4. Run `sbt clean assembly` to create a final JAR ready for submission.
